@@ -7,3 +7,5 @@ from django.shortcuts import render
 # 4. send response for requests from model to template
 
 # Create your views here.
+def product_index(request):
+    return render(request, "products/index.html")
